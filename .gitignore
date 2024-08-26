@@ -9,9 +9,9 @@ venv
 .vs_code
 
 # Django migrations
-*/migrations/
-*/migrations/*.py
-*/migrations/__pycache__/
+# */migrations/
+# */migrations/*.py
+# */migrations/__pycache__/
 
 # SQLite database
 *.sqlite3
