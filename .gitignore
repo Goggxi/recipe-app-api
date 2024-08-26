@@ -1,0 +1,30 @@
+venv
+.env
+
+.DS_Store
+*/.DS_Store
+
+# Vscode
+.vscode
+.vs_code
+
+# Django migrations
+*/migrations/
+*/migrations/*.py
+*/migrations/__pycache__/
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# PyCharm-specific files
+.idea/
+*.iml
+
+media/*
+attachments/*
+htmlcov/*
